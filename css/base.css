@@ -8,7 +8,6 @@ ol,ul,li{list-style-type:none;}
 a{color:#40628D;text-decoration:none;outline:none;}
 a:hover{color:#fc5e17;text-decoration:underline;}
 em,cite,i{font-style:normal;}
-th{text-align:left;}
 
 /* public style 
 --------------------------------*/
@@ -43,6 +42,12 @@ h1,h2,h3,h4,h5,h6,.nav-cate,.navigation{font-family: '微软雅黑'}
 	overflow:hidden;
 	*zoom:1;
 	width:960px;
+}
+.w190{
+	width:190px;
+}
+.w744{
+	width: 744px;
 }
 /*uiBtn
 ------------------------*/
