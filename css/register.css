@@ -1,0 +1,86 @@
+/*step
+------------------*/
+.step1,.step2,.step3{
+	margin: 20px auto;
+	width: 966px;
+	height:33px;
+	background:url(../images/step.png) no-repeat 0 0;
+}
+/*reg
+-------------------*/
+.reg {
+	padding-top: 20px;
+}
+.reg li{
+	height:60px;
+}
+.reg li label{
+	width: 100px;
+	padding-right:5px;
+	line-height:28px;
+	text-align:right;
+}
+.reg li label,.reg li input,#imgObj,#changeValidateCode{
+	float:left
+}
+.msg{
+	margin-left: 105px;
+	height:26px;
+	clear: both;
+	line-height:26px;
+}
+.error i,.focus i,.right{
+	display:inline-block;
+	*zoom:1;
+	width:18px;
+	height:18px;
+	background: url(../images/com_bg.png) no-repeat 0 -159px;
+	vertical-align: middle;
+}
+.right{
+	margin:5px 10px 0;
+}
+.error{
+	color:#f00;
+}
+.error i{background-position:-40px -159px;}
+.focus i{
+	background-position:-80px -159px;
+}
+/*input ui
+-----------------*/
+.input-text{
+	border:1px solid #cecece;
+	padding:6px;
+	width: 250px;
+	height:16px;
+	line-height:16px;
+}
+.checkcode{
+	width:66px;
+	margin-right:10px;
+}
+#changeValidateCode{
+	margin: 5px 0 0 10px;
+}
+/*arg
+---------------*/
+.arg{
+	margin-left:10px;
+	color: #999;
+	text-decoration: underline;
+}
+/* login
+----------------*/
+.login{
+	margin:20px 40px 0 0;
+	border: 1px solid #efefef;
+	padding: 40px 80px;
+}
+.login p{
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+.login p a{
+	color: #b20000
+}
