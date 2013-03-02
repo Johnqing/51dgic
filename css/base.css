@@ -24,6 +24,12 @@ h1,h2,h3,h4,h5,h6,.nav-cate,.navigation{font-family: '微软雅黑'}
 .mb10{margin-bottom:10px;}
 .mb15{margin-bottom:15px;}
 .mb20{margin-bottom:20px;}
+.plr10{
+	padding: 0 10px;
+}
+.pl20{
+	padding-left:20px;
+}
 .indent{text-indent:2em;}
 .none{display:none;}
 .f-fix{float:left;width:100%;}
@@ -31,6 +37,9 @@ h1,h2,h3,h4,h5,h6,.nav-cate,.navigation{font-family: '微软雅黑'}
 .f-simsun{font-family:SimSun;}
 .f-arial{font-family:Arial;}
 .f-w{font-weight:normal}
+.red-border{
+	border: 1px solid #b20000;
+}
 .redline-3{
 	height:3px;
 	overflow:hidden;
