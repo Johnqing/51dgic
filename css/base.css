@@ -154,14 +154,14 @@ h1,h2,h3,h4,h5,h6,.nav-cate,.navigation{font-family: '微软雅黑'}
 .helper a {
 	color: #777;
 }
-.links{
+.footer .links{
 	border-top: 1px solid #ebf0f5;
 	padding: 20px 0 5px;
 }
-.links,.links a,.copyright{
+.footer .links,.links a,.copyright{
 	color: #666;
 }
-.links a{
+.footer .links a{
 	display: inline-block;
 	margin: 0 4px;
 }
