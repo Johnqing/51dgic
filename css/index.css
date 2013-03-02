@@ -15,6 +15,9 @@
 	height: 33px;
 	border-bottom-color:#efede0;
 }
+.categories .noborder{
+	border-bottom: 0 none;
+}
 .categories .parent .cate-con{
 	background:url(../images/cate_aw.gif) no-repeat 168px 10px;
 	padding:5px 10px;
