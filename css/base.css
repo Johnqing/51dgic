@@ -17,6 +17,14 @@ h1,h2,h3,h4,h5,h6,.nav-cate,.navigation{font-family: '微软雅黑'}
 .color777{color:#777}
 .fl{float:left;}
 .fr{float:right;}
+.mt5{margin-top:5px;}
+.mt10{margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.mb5{margin-bottom:5px;}
+.mb10{margin-bottom:10px;}
+.mb15{margin-bottom:15px;}
+.mb20{margin-bottom:20px;}
 .indent{text-indent:2em;}
 .none{display:none;}
 .f-fix{float:left;width:100%;}
@@ -24,12 +32,55 @@ h1,h2,h3,h4,h5,h6,.nav-cate,.navigation{font-family: '微软雅黑'}
 .f-simsun{font-family:SimSun;}
 .f-arial{font-family:Arial;}
 .f-w{font-weight:normal}
+.redline-3{
+	height:3px;
+	overflow:hidden;
+	background:#b20000;
+}
 /*layout*/
 .topbar, .header, .main, .nav-box{
 	margin:0 auto;
 	overflow:hidden;
 	*zoom:1;
 	width:960px;
+}
+/*uiBtn
+------------------------*/
+.uiBtn, .uiBtn span {
+	display: inline-block;
+	height: 32px;
+	padding-left: 26px;
+	background: url(../images/com_bg.png) left 0 no-repeat;
+	cursor: pointer;
+	vertical-align: middle;
+}
+.uiBtn span {
+	padding: 0 26px 0 0;
+	background-position: right 0;
+	color: #FFF;
+	font: 14px 'SimSun';
+	text-align: center;
+	vertical-align: top;
+	font-weight: bold;
+	line-height: 32px;
+}
+
+.uiBtn:hover, .uiBtn:hover span {
+	background-position: left -40px;
+	text-decoration: none;
+}
+.uiBtn.b2, .uiBtn.b2 span {
+	height: 26px;
+	padding-left: 1.2em;
+	background-position: left -80px;
+	line-height: 26px;
+	overflow: hidden;
+}
+.uiBtn.b2 span {
+	padding: 0 1.2em 0 0;
+	background-position: right -80px;
+	font-size: 12px;
+	color: #333;
 }
 /*f module*/
 .f .block{

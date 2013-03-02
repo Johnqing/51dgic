@@ -1,0 +1,100 @@
+/*btn
+-------------*/
+.uiText {
+	width: 170px;
+	height: 20px;
+	padding: 2px;
+	border: 1px solid #BFBFBF;
+	background: url(../images/text_bg.png) no-repeat;
+	color: #333;
+	line-height: 20px;
+}
+.uiBtn:hover span {
+	background-position: right -40px;
+}
+.uiBtn.b2:hover, .uiBtn.b2:hover span {
+	background-position: left -80px;
+	text-decoration: none;
+}
+.uiBtn.b2:hover span {
+	background-position: right -80px;
+}
+.bottShadow {
+	clear: both;
+	width: 366px;
+	height: 20px;
+	margin-top: 1px;
+	background: url(../images/acc_bg.png) no-repeat;
+}
+.form .loginSubmit .uiBtn {
+	margin: 4px 14px 0 0;
+	padding-left: 30px;
+}
+.form .loginSubmit .uiBtn span {
+	padding-right: 30px;
+}
+.form a {
+	color: #057BD2;
+}
+/* layout
+---------------*/
+.welcome ,.login {
+	margin-top: 50px;
+}
+.welcome {
+	margin-left:40px;
+}
+.login{
+	margin-right: 40px;
+}
+.login .loginBox {
+	width: 364px;
+	border: 1px solid #DDD;
+	background: #F9F9F9;
+	overflow: hidden;
+}
+.login h2 {
+	margin: 22px 25px 8px;
+	font-size: 14px;
+}
+.login .form {
+	width: 322px;
+	margin: 14px 28px 0;
+	overflow: hidden;
+}
+.login .form dl {
+	clear: both;
+	margin-bottom: 4px;
+	padding-top: 2px;
+	overflow: hidden;
+}
+.login .form dl dt {
+	float: left;
+	padding-top: 4px;
+	padding-top: 5px\9;
+	font-size: 14px;
+}
+.login .form dl dd {
+	float: left;
+	width: 250px;
+	margin-bottom: 16px;
+	min-height: 37px;
+	_height: 37px;
+}
+.login .form .loginSubmit dd {
+	padding-left: 56px;
+}
+.login .form .uiText {
+	width: 216px;
+	height: 23px;
+	line-height: 23px;
+}
+
+.login .other {
+	clear: both;
+	margin: 14px 25px 0;
+	padding: 12px 0 12px;
+	border-top: 1px dashed #CCC;
+	color: #333;
+	overflow: hidden;
+}
