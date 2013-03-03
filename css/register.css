@@ -47,19 +47,7 @@
 .focus i{
 	background-position:-80px -159px;
 }
-/*input ui
------------------*/
-.input-text{
-	border:1px solid #cecece;
-	padding:6px;
-	width: 250px;
-	height:16px;
-	line-height:16px;
-}
-.checkcode{
-	width:66px;
-	margin-right:10px;
-}
+
 #changeValidateCode{
 	margin: 5px 0 0 10px;
 }
