@@ -33,6 +33,9 @@ h1,h2,h3,h4,h5,h6,.nav-cate,.navigation{font-family: '微软雅黑'}
 .pl20{
 	padding-left:20px;
 }
+.plr20{
+	padding: 0 20px;
+}
 .indent{text-indent:2em;}
 .none{display:none;}
 .f-fix{float:left;width:100%;}

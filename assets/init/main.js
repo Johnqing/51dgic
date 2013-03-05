@@ -10,4 +10,5 @@ define(function(require) {
 		target : $('.main-promo'),
 		time : 5000
 	});
+	var quo = require('./quotation');
 });

@@ -61,6 +61,7 @@
 }
 
 .search-filter {
+	display: none;
 	margin: 10px 0
 }
 .search-filter li{
@@ -71,4 +72,38 @@
 }
 .search-filter .input-text{
 	width:80px;
+}
+.more-filter,.less-filter{
+	margin-left: 5px;
+	padding-right: 10px;
+	background:url(../images/aw2.png) no-repeat 75px 6px;
+}
+.less-filter{
+	display: none;
+	background-position: 75px -8px;
+}
+/*table-style
+---------------*/
+.table-list{
+	margin-bottom: 20px;
+}
+.table-list th,
+.table-list td{
+	padding:10px;
+}
+.table-list table,
+.table-list th{background:#efeded}
+.table-list td{
+	background:#fff
+}
+.table-list td .yellow,
+.table-list td .green{
+	display: block;
+	text-align: center;
+}
+.table-list td .yellow{
+	color: #f60;
+}
+.table-list td .green{
+	color: #44aa28;
 }
