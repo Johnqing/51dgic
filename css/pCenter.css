@@ -11,28 +11,71 @@
 .bread-nav em{
 	margin: 0 10px;
 }
+/* input
+---------------------*/
+.input-text-50,
+.input-text-70,
+.input-text-100,
+.input-text-150,
+.input-text-230{
+	border: 1px solid #ccc;
+}
+.input-text-50{
+	width:50px;
+}
+.input-text-70{
+	width:70px;
+}
+.input-text-100{
+	width:100px;
+}
+.input-text-150{
+	width:150px;
+}
+.input-text-230{
+	width:100px;
+}
+.del-btn{
+	display: block;
+	width:11px;
+	height: 12px;
+	overflow: hidden;
+	background:url(../images/del.gif) no-repeat 0 0;
+	text-indent:-99px;
+}
+.del-btn:hover{
+	background-position: 0 -12px;
+}
 /* tab
 ---------------------*/
 .tabs li{
 	float: left;
 	margin-top: 2px;
 	margin-right:2px;
-	padding:3px 10px;
+	padding:5px 10px;
 	background: #efeded;
 	font-size: 12px;
+	font-weight: bold;
 	color: #666;
 	cursor: pointer;
 }
+.tabs li a{
+	color: #333;
+}
 .tabs .curr{
 	margin-top: 0;
-	padding:4px 20px;
+	padding:6px 20px;
 	background: #b20000;
 	color:#fff;
+}
+.tabs .curr a{
+	color: #fff;
 }
 /* mb tit
 ----------------------------*/
 .pc-con-tit{
 	margin-bottom: 10px;
+	font-size: 14px;
 }
 /* mb module
 --------------*/
@@ -50,6 +93,17 @@
 }
 /*form-style
 ---------------*/
+.searbar dt{
+	font-weight: bold;
+	margin-bottom:5px;
+}
+.searbar dd span{
+	margin-right: 50px;
+}
+.searbar dd span input{
+	vertical-align:top;
+	margin-right:5px;
+}
 .form-style label{
 	padding:0 6px;
 	font-weight: bold;
@@ -96,6 +150,9 @@
 .table-list td{
 	background:#fff
 }
+.table-list td div{
+	line-height:25px;
+}
 .table-list td .yellow,
 .table-list td .green{
 	display: block;
@@ -106,4 +163,43 @@
 }
 .table-list td .green{
 	color: #44aa28;
+}
+.red-btn,
+.grey-btn{
+	width: 100px;
+	height:30px;
+	line-height:30px;
+	background:#f69468;
+	display:inline-block;
+	text-align: center;
+	font-size:12px;
+	font-weight: bold;
+	color: #fff;
+}
+.red-btn:hover{
+	color:#fff
+}
+.grey-btn:hover{
+	color: #333
+}
+.grey-btn{
+	background-color:#dcdcdc;
+	color: #333
+}
+/* order btn
+-------------------*/
+.myorder-btn{
+	text-align: center;
+}
+.myorder-btn input{
+	margin: 0 10px;
+	padding:5px 20px;
+	border:0;
+	color: #fff;
+}
+.myorder-btn .sub{
+	background: #b20000;
+}
+.myorder-btn .res{
+	background: #818181;
 }
