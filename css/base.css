@@ -14,6 +14,7 @@ em,cite,i{font-style:normal;}
 h1,h2,h3,h4,h5,h6,.nav-cate,.navigation{font-family: '微软雅黑'}
 .color999{color:#999}
 .color777{color:#777}
+.hide{display: none;}
 .fl{float:left;}
 .fr{float:right;}
 .mt5{margin-top:5px;}

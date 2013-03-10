@@ -50,7 +50,7 @@
   <div class="w190 fl">
     <div class="m grey-border">
       <h5 class="mt">交易管理</h5>
-      <div class="mc"> <a href="#">我的询价单</a> <a href="#">我的报价单</a> <a href="#" class="curr">订单中心</a> </div>
+      <div class="mc"> <a href="#" class="curr">我的询价单</a> <a href="#">我的报价单</a> <a href="#">订单中心</a> </div>
       <h5 class="mt">服务中心</h5>
       <div class="mc"> <a href="#">在线咨询</a> </div>
       <h5 class="mt">资料管理</h5>
@@ -58,18 +58,88 @@
     </div>
   </div>
   <div class="w744 fr">
-    <div class="pc-con-tit"><b>我的订单</b></div>
+    <div class="pc-con-tit"><b>我的询价单</b></div>
     <ul class="clearfix tabs">
-      <li class="curr"><a href="#">我要订单</a></li>
+      <li class="curr"><a href="#">我要询价</a></li>
+      <li><a href="#">询价纪录</a></li>
     </ul>
     <div class="red-border">
       <div class="searbar p20">
-          <div class="not-have mb10"><b>没有找到您的订单</b></div>
-          <div class="order"><b>我要订购，马上填写订购单</b> <a href="#" class="r-btn">我要询价</a></div>
+        <dl class="mb10">
+          <dt>请选择你要交易的币种</dt>
+          <dd>
+            <span><input type="radio">港币</span>
+            <span><input type="radio">人民币</span>
+            <span><input type="radio">日元</span>
+            <span><input type="radio">美元</span>
+            <span><input type="radio">欧元</span>
+            <span><input type="radio">澳元</span>
+          </dd>
+        </dl>
+        <dl>
+          <dt>请选择交货方式</dt>
+          <dd>
+            <span><input type="radio">HK</span>
+            <span><input type="radio">人民币</span>
+            <span><input type="radio">日元</span>
+            <span><input type="radio">美元</span>
+          </dd>
+          <dd>
+            <span><input type="radio">HK</span>
+            <span><input type="radio">人民币</span>
+            <span><input type="radio">日元</span>
+            <span><input type="radio">美元</span>
+          </dd>
+          <dd>
+            <span><input type="radio">HK</span>
+            <span><input type="radio">人民币</span>
+            <span><input type="radio">日元</span>
+            <span><input type="radio">美元</span>
+          </dd>
+        </dl>
       </div>
-      <div class="plr20 order-chart">
-          <h4>订购流程</h4>
-          <img src="images/myorder.gif" alt="" />
+      <div class="plr20 table-list">
+      <table width="100%" border="0" cellspacing="1" cellpadding="0">
+        <tr>
+          <th align="left" scope="col">产品型号</th>
+          <th align="left" scope="col">产品类型</th>
+          <th scope="col">数量</th>
+          <th scope="col">期望单价</th>
+          <th scope="col">期望交期</th>
+          <th scope="col">操作</th>
+        </tr>
+        <tr>
+          <td><input type="text" class="input-text-230"/></td>
+          <td><input type="text" class="input-text-150"/></td>
+          <td align="center"><input type="text" class="input-text-50"/></td>
+          <td align="center"><input type="text" class="input-text-70"/></td>
+          <td align="center"><input type="text" class="input-text-100"/></td>
+          <td align="center"><a href="#" class="del-btn">删除</a></td>
+        </tr>
+        <tr>
+          <td><input type="text" class="input-text-230"/></td>
+          <td><input type="text" class="input-text-150"/></td>
+          <td align="center"><input type="text" class="input-text-50"/></td>
+          <td align="center"><input type="text" class="input-text-70"/></td>
+          <td align="center"><input type="text" class="input-text-100"/></td>
+          <td align="center"><a href="#" class="del-btn">删除</a></td>
+        </tr>
+        <tr>
+          <td><a href="javascript:;" class="red-btn">继续添加</a></td>
+          <td><input type="text" class="input-text-50"/> 
+            个询价产品</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="6" class="myorder-btn">
+            <input type="submit" value="提交" class="sub">
+            <input type="reset" value="重置" class="res">
+          </td>
+        </tr>
+      </table>
       </div>
     </div>
   </div>

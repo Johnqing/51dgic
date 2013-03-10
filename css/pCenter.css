@@ -93,12 +93,31 @@
 }
 /*form-style
 ---------------*/
+.fs-red-16{
+	font-size:16px;
+	color:#c00;
+}
+.fs-red-16 em{
+	font-size:12px;
+	color:#999;
+}
 .searbar dt{
 	font-weight: bold;
 	margin-bottom:5px;
 }
+.searbar .h2{
+	font-size:14px;
+	font-weight:bold;
+	font-family:"微软雅黑";
+}
 .searbar dd span{
 	margin-right: 50px;
+}
+.searbar dd .toggle .more-filter{
+	background-position: 27px 6px;
+}
+.searbar dd .toggle .less-filter{
+	background-position: 27px -8px;
 }
 .searbar dd span input{
 	vertical-align:top;
@@ -158,13 +177,14 @@
 	display: block;
 	text-align: center;
 }
-.table-list td .yellow{
+.yellow{
 	color: #f60;
 }
-.table-list td .green{
+.green{
 	color: #44aa28;
 }
 .red-btn,
+.r-btn,
 .grey-btn{
 	width: 100px;
 	height:30px;
@@ -176,9 +196,11 @@
 	font-weight: bold;
 	color: #fff;
 }
-.red-btn:hover{
+.red-btn:hover,.r-btn:hover{
 	color:#fff
 }
+.r-btn{background:#b20000}
+
 .grey-btn:hover{
 	color: #333
 }
@@ -203,3 +225,86 @@
 .myorder-btn .res{
 	background: #818181;
 }
+/* not have order
+------------------------*/
+.not-have{
+	padding-left: 20px;
+	background: url(../images/light.gif) no-repeat left center;
+}
+/* order 
+----------------------*/
+.order-chart h4{
+	border-top: 1px solid #ddd;
+	padding:20px 0 10px;
+	font-size: 14px;
+	color: #333;
+}
+.order_info_detail{
+	padding-top: 5px;
+	line-height:22px;
+}
+/* 配送
+----------------*/
+.statu_show {padding:24px 0;}
+.statu_show ul li {float:left;width:130px;margin-right:32px;color:#999999;text-align:center;position:relative;}
+.statu_show ul li .o_statu {padding:0 0 14px 0;}
+.statu_show ul li .wrap_img {display:block;width:80px;height:76px;margin:0 25px;background:url(../images/order_status.png) no-repeat 0 0;}
+.statu_show ul li.o_pay .wrap_img {background-position:-85px 0;}
+.statu_show ul li.o_out .wrap_img {background-position:0 -81px;}
+.statu_show ul li.o_distri .wrap_img {background-position:0 -162px;}
+.statu_show ul li.o_signfo .wrap_img {background-position:0 -243px;}
+.statu_show ul li.o_invalid .wrap_img {background-position:0 -324px;}
+.statu_show ul li .wrap_img .img {visibility:hidden;}
+.statu_show ul li .done span {display:block;width:22px;height:21px;margin-left:50px;background:url(../images/order_status.png) no-repeat -85px -324px;visibility:hidden;}
+.statu_show ul li .ext_txt {padding:4px 0 0;}
+.statu_show ul li .time {display:block;}
+.statu_show ul li .next_to {position:absolute;top:68px;left:111px;display:block;width:68px;height:11px;overflow:hidden;background:url(../images/order_status.png) no-repeat -85px -366px;}
+.statu_show ul li.o_submit .next_to {background-position:-85px -350px;}
+.statu_show ul li.o_signfo .next_to,
+.statu_show ul li.o_invalid .next_to {display:none;}/*去除最后一个里面的箭头*/
+
+/*作废*/
+.statu_show ul li.o_invalid .done span {visibility:visible;}
+.statu_show ul li.o_invalid .o_statu {font-size:14px;color:#333333;}
+.statu_show ul li.o_invalid .ext_txt {color:#333333;}
+/*待支付*/
+.statu_show ul.online2 li.o_pay .wrap_img .img,
+.statu_show ul.online2 li.o_submit .done span {visibility:visible;}
+.statu_show ul.online2 li.o_pay .o_statu {font-size:14px;color:#333333;}
+.statu_show ul.online2 li.o_pay .ext_txt {color:#333333;}
+/*待出库*/
+.statu_show ul.online3 li.o_out .wrap_img .img,
+.statu_show ul.online3 li.o_submit .done span,
+.statu_show ul.online3 li.o_pay .done span{visibility:visible;}
+.statu_show ul.online3 li.o_out .o_statu {font-size:14px;color:#333333;}
+.statu_show ul.online3 li.o_out .ext_txt {color:#333333;}
+.statu_show ul.online3 li.o_submit .next_to,
+.statu_show ul.online3 li.o_pay .next_to {background-position:-85px -350px;}
+/*配送中*/
+.statu_show ul.online4 li.o_distri .wrap_img .img,
+.statu_show ul.online4 li.o_submit .done span,
+.statu_show ul.online4 li.o_pay .done span,
+.statu_show ul.online4 li.o_out .done span {visibility:visible;}
+.statu_show ul.online4 li.o_distri .o_statu {font-size:14px;color:#333333;}
+.statu_show ul.online4 li.o_distri .ext_txt {color:#333333;}
+.statu_show ul.online4 li.o_out .wrap_img {background-position:-85px -81px;}
+.statu_show ul.online4 li.o_submit .next_to,
+.statu_show ul.online4 li.o_pay .next_to,
+.statu_show ul.online4 li.o_out .next_to{background-position:-85px -350px;}
+/*签收*/
+.statu_show ul.online5 li.o_signfo .wrap_img .img,
+.statu_show ul.online5 li span {visibility:visible;}
+.statu_show ul.online5 li.o_out .wrap_img {background-position:-85px -81px;}
+.statu_show ul.online5 li.o_distri .wrap_img {background-position:-85px -162px;}
+.statu_show ul.online5 li.o_signfo .wrap_img {background-position:-85px -243px;}
+.statu_show ul.online5 li.o_signfo .o_statu {font-size:14px;color:#333333;}
+.statu_show ul.online5 li.o_signfo .ext_txt {color:#333333;}
+.statu_show ul.online5 li .next_to {background-position:-85px -350px;}
+/*
+------------------------------*/
+.status_list {margin-left:30px;padding-top:7px;border-top:1px solid #e1e1e1;color:#666666;}
+.status_list ul li {padding-bottom:6px;}
+.status_list ul li span {padding-right:25px;}
+.status_list ul li.current {color:#333333;}
+.status_close ul li {display:none;}
+.status_close ul .first {display:block;}
