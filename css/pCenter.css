@@ -308,3 +308,15 @@
 .status_list ul li.current {color:#333333;}
 .status_close ul li {display:none;}
 .status_close ul .first {display:block;}
+
+/* Consulting
+---------------------------*/
+.consult-img{margin-bottom:10px;border: 1px solid #87BEFE;padding: 10px;background:#F6FBFE;text-align:center;}
+.online-tit{font-size:14px;margin-bottom: 10px}
+.online-talk {overflow:hidden;*zoom:1}
+.online-talk li{float: left;overflow: hidden;*zoom:1;width: 50%;height: 90px;margin-bottom: 10px;}
+.online-talk li img.fl{margin:0 10px;border: 1px solid #057BD2;border-radius: 3px;padding: 2px;}
+.online-talk dl{line-height: 20px;}
+.online-talk dt{margin-bottom: 5px;}
+.online-talk dt strong{font-size: 14px}
+
