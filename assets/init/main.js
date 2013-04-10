@@ -11,4 +11,5 @@ define(function(require) {
 		time : 5000
 	});
 	var quo = require('./quotation');
+
 });

@@ -35,6 +35,9 @@
 .input-text-230{
 	width:100px;
 }
+.input-text-345{
+	width:345px;
+}
 .del-btn{
 	display: block;
 	width:11px;
@@ -320,3 +323,52 @@
 .online-talk dt{margin-bottom: 5px;}
 .online-talk dt strong{font-size: 14px}
 
+/* profile
+-----------------*/
+.profile-tit{
+    border-bottom: 1px solid #b20000;
+    padding: 10px 5px;
+    font-size: 14px;
+}
+.profile ul{
+    padding: 0 10px 10px;
+}
+.profile li{
+    padding-top:10px;
+    font-size: 12px;
+}
+.profile strong{
+    float: left;
+    width: 67px;
+}
+.profile strong.long{
+    width: 105px;
+}
+.profile img{
+    border: 1px solid #DDD;
+}
+.shoping-address{padding-bottom: 10px}
+
+.newaddress {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #F3F3F3;
+}
+.newaddress td{
+    padding: 10px;
+}
+.newaddress b{font-size: 14px;color: #f00}
+.newaddress select{
+    border: 1px solid #ddd;
+}
+.shopAds-tips{
+    margin-left:10px;
+    color: #999;
+}
+.save-shopads{
+    border: 1px solid #ddd;
+    width: 84px;
+    height: 24px;
+    text-align: center;
+    background: url("../images/shopads-btn.png") repeat-x;
+}

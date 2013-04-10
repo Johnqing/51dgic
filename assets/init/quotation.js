@@ -9,4 +9,8 @@ define(function(require,exports,module){
 		}
 		return false;
 	});
+    $('#addNewShopAddress').click(function(){
+                $('#newAddress').show();
+                return false;
+    })
 });
